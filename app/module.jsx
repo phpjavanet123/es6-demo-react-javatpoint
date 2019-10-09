@@ -47,5 +47,5 @@ class List extends React.Component {
       );  
    }  
 } 
- 
-export default App; 
+module.exports = App; // NODE JS use: var App = require('./module.jsx');
+//export default App; // ECMASCRIPT 6: import App from './module.jsx';
